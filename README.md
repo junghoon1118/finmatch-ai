@@ -83,3 +83,6 @@ AI의 도움을 받아 설계와 코드를 검토하며, 학습 기록에는 직
 
 ## 주소
 http://localhost:8080 
+
+## 결과
+<img width="561" height="893" alt="image" src="https://github.com/user-attachments/assets/1a94d84f-4709-4aeb-a019-a38abfdb6e09" />
