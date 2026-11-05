@@ -80,3 +80,6 @@ AI의 도움을 받아 설계와 코드를 검토하며, 학습 기록에는 직
 | `ReconciliationService` | 은행 행사 지출과 장부를 대조 | 대조 단계 |
 | `ReconciliationResult` | 일치·누락·금액 차이·중복 의심 결과를 담음 | 대조 단계 |
 | `ExcelUploadController` | 웹에서 업로드한 엑셀 파일을 받음 | 업로드 단계 |
+
+## 주소
+http://localhost:8080 
