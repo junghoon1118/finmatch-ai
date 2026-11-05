@@ -51,3 +51,20 @@ AI의 도움을 받아 설계와 코드를 검토하며, 학습 기록에는 직
 - [ ] MySQL 저장 기능 구현
 - [ ] 웹 화면 구현
 - [ ] AI 회계 검토 보고서 기능 구현
+
+ ## 파일 / 폴더 역할
+ | 파일·폴더 | 역할 |
+|---|---|
+| `src/main/java` | 실제 기능을 구현하는 Java 코드가 들어가는 곳 |
+| `com.finmatch.finmatch_ai` | 관련 클래스를 묶는 기본 패키지 |
+| `FinmatchAiApplication.java` | 프로그램을 시작하는 실행 클래스. `main()`이 있음 |
+| `src/main/resources` | 설정 파일과 웹 화면에 필요한 파일을 두는 곳 |
+| `static` | CSS, JavaScript, 이미지 같은 정적 파일 |
+| `templates` | 서버에서 만들어 전달하는 HTML 화면 |
+| `application.properties` | 서버 포트, MySQL 연결 정보 등을 설정하는 파일 |
+| `src/test/java` | 기능이 올바르게 작동하는지 검증하는 테스트 코드 |
+| `JRE System Library [JavaSE-21]` | 프로젝트가 사용하는 Java 21 |
+| `Maven Dependencies` | 프로젝트에서 사용하는 외부 라이브러리 |
+| `pom.xml` | 라이브러리와 빌드 설정을 관리하는 파일 |
+| `mvnw`, `mvnw.cmd` | 프로젝트에 지정된 Maven 실행을 도와주는 파일 |
+| `target` | 빌드 결과가 생성되는 폴더 |
