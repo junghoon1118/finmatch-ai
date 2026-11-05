@@ -20,7 +20,7 @@ Java와 Spring Boot를 활용한 학생회 회계 장부 자동 대조 및 검�
 ## 사용 예정 기술
 - Java 21
 - Spring Boot
-- MySQL
+- MySQL(미구현)
 - Apache POI
 - HTML/CSS, JavaScript
 - AI API
