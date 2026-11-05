@@ -68,3 +68,15 @@ AI의 도움을 받아 설계와 코드를 검토하며, 학습 기록에는 직
 | `pom.xml` | 라이브러리와 빌드 설정을 관리하는 파일 |
 | `mvnw`, `mvnw.cmd` | 프로젝트에 지정된 Maven 실행을 도와주는 파일 |
 | `target` | 빌드 결과가 생성되는 폴더 |
+
+## 클래스 설계
+| 클래스 | 맡을 역할 | 만들 시점 |
+|---|---|---|
+| `BankTransaction` | 은행 거래 한 건의 데이터를 담음 | 지금 |
+| `BankExcelReader` | 은행 엑셀의 연도별 시트를 읽어 거래 객체로 변환 | 지금 |
+| `BankTransactionService` | 출금 추출, 행사 지출 구분 등 거래 처리 | 지금 |
+| `ExpenseLedgerEntry` | 학생회 장부 한 행의 데이터를 담음 | 장부 읽기 단계 |
+| `LedgerExcelReader` | 학생회 엑셀을 읽어 장부 객체로 변환 | 장부 읽기 단계 |
+| `ReconciliationService` | 은행 행사 지출과 장부를 대조 | 대조 단계 |
+| `ReconciliationResult` | 일치·누락·금액 차이·중복 의심 결과를 담음 | 대조 단계 |
+| `ExcelUploadController` | 웹에서 업로드한 엑셀 파일을 받음 | 업로드 단계 |
